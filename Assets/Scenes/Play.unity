@@ -119,6 +119,133 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &179031589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179031591}
+  - component: {fileID: 179031590}
+  m_Layer: 0
+  m_Name: Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &179031590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179031589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1391e83d52aabdf49b408ccfbf46617d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chessPieceDataList:
+  - type: 1
+    color: 0
+    sprite: {fileID: 803718448, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 2
+    color: 0
+    sprite: {fileID: 178696925, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 3
+    color: 0
+    sprite: {fileID: -155547795, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 4
+    color: 0
+    sprite: {fileID: -1646986395, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 5
+    color: 0
+    sprite: {fileID: -1426924895, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 6
+    color: 0
+    sprite: {fileID: -48611979, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 1
+    color: 1
+    sprite: {fileID: 463493072, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 2
+    color: 1
+    sprite: {fileID: 826488350, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 3
+    color: 1
+    sprite: {fileID: -1563636225, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 4
+    color: 1
+    sprite: {fileID: 1467458889, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 5
+    color: 1
+    sprite: {fileID: -370856598, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+  - type: 6
+    color: 1
+    sprite: {fileID: 2069710356, guid: 08457efe7b65b08409eaec34e3b78d2d, type: 3}
+--- !u!4 &179031591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179031589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272374174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272374176}
+  - component: {fileID: 272374175}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &272374175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272374174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8560e5af11abd00498669463a85109e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Square: 
+  chessPiecePrefab: {fileID: 2165104019413156361, guid: 3cd24060800d6764d9c8de0e9b2d6288, type: 3}
+--- !u!4 &272374176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272374174}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.093734, y: 1.6407573, z: 1.0968366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,11 +548,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 534696426af211d43807075b4134a3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whiteSquareMaterial: {fileID: 2100000, guid: 4b1622067ac35e449bccd6aca089b02a, type: 2}
-  blackSquareMaterial: {fileID: 2100000, guid: fd3e6dc45638a1e41bbaaea0f5d10602, type: 2}
-  squarePrefab: {fileID: 5910306563208995096, guid: cb3b3b2c511b0b94d97558ec12035300, type: 3}
+  whiteColor: {r: 1, g: 1, b: 1, a: 1}
+  blackColor: {r: 1, g: 0.13396227, b: 0.13396227, a: 1}
   squareParent: {fileID: 1604042270}
-  squareSize: 1
+  boardSize: 8
+  squarePrefab: {fileID: 4590765472942492162, guid: 3a0b70b0bb3c89a488f3489b4f37c5fd, type: 3}
+  oneChessSize: 1
+--- !u!1 &781240579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 781240580}
+  m_Layer: 0
+  m_Name: ChessPiece
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &781240580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781240579}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +659,7 @@ Transform:
   m_GameObject: {fileID: 1604042269}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.447179, y: 4.017183, z: -9.918681}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -515,3 +674,6 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 574352886}
   - {fileID: 1604042270}
+  - {fileID: 781240580}
+  - {fileID: 272374176}
+  - {fileID: 179031591}
